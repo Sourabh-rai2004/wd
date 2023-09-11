@@ -45,19 +45,44 @@
             width: 190px;
         }
 
+        .buttons2 {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            justify-content: end;
+        }
+
+        .button2 {
+            background: #5926c4;
+            color: #fff;
+            font-size: 17px;
+            text-transform: uppercase;
+            padding: 10px 0;
+            text-align: center;
+            font-family: sans-serif;
+            line-height: 28px;
+            display: block;
+            border: #5926c4;
+            width: 190px;
+        }
 @media (max-width: 1000px) {
   .column2 {
    display: none;
   }
 }
+
 @media (max-width: 1000px) {
   .column {
     flex: 1;
     background-image: url('https://andacademynew.quintero-solutions.com/temp-resources/wp-content/uploads/2023/09/Group-129.png');
     background-size: cover; 
     background-attachment:fixed;
-           
   width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .buttons2 {
+   display: visible;
   }
 }
     </style>
@@ -74,7 +99,7 @@
                     <img  src="https://andacademynew.quintero-solutions.com/temp-resources/wp-content/uploads/2023/09/Group-512.png" width="180px">
                 </div>
                 <div class="column">
-                    <p style="margin-top: -8px; margin-bottom: -10px; font-size: large;">1. Fundamentals of Visual Design</p>
+                    <p style="margin-top: -12px; margin-bottom: -10px; font-size: large;">1. Fundamentals of Visual Design</p>
                     <p style="padding-left: 20px;  color: #8b8b8b;">Project: Type-based poster</p>
 
                     <p style="margin-top: -8px; margin-bottom: -10px; font-size: large;">2. Design for Digital</p>
@@ -118,18 +143,21 @@
                     <p style="margin-top: -8px; margin-bottom: -10px; font-size: large;">9. Portfolio & Career Development</p>
                 </div>
             </div>
-            <div style="margin-top: 30px; font-family: sans-serif;">Software: Illustrator, Photoshop, InDesign, After Effects, XD, Premiere Pro, etc</div><br>
+            <div style="margin-top: 20px; font-family: sans-serif;">Software: Illustrator, Photoshop, InDesign, After Effects, XD, Premiere Pro, etc</div><br>
 
                        <div style="margin-top: -10px;">
                <img class="back-arrow" src="https://andacademynew.quintero-solutions.com/temp-resources/wp-content/uploads/2023/09/Back-arrow.png" width="15px" height="25px">
             </div>
-           
+            <div style="display: none;" class="buttons2">
+                <button class="button">STUDENT WORK</button>
+                <button class="button">BROCHURE</button>
+            </div>
         </div>
         
-        <div  class="column2" style=" margin-top: -10px;
+        <div  class="column2" style=" margin-top: -25px;
         background-image: url('https://andacademynew.quintero-solutions.com/temp-resources/wp-content/uploads/2023/09/Group-129.png');
-       
-  
+       height: 100%;
+       background-repeat: no-repeat;
         background-size: cover;">
             <img class="one" style=" border: 30px solid #cdaeff; margin-top: 30px; margin-left: 70px;" src="https://andacademynew.quintero-solutions.com/temp-resources/wp-content/uploads/2023/09/Group-499.png" width="500px" height="auto">
             <div class="buttons">
